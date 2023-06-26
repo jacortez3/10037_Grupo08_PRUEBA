@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>HostCloud - Responsive HTML5 Template</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Colors CSS -->
+    <link rel="stylesheet" href="../css/colors.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="../css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="../js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loading">
+			<div class="finger finger-1">
+				<div class="finger-item">
+				<span></span><i></i>
+				</div>
+			</div>
+  			<div class="finger finger-2">
+				<div class="finger-item">
+				<span></span><i></i>
+				</div>
+			</div>
+  			<div class="finger finger-3">
+				<div class="finger-item">
+				  <span></span><i></i>
+				</div>
+			</div>
+  			<div class="finger finger-4">
+				<div class="finger-item">
+				<span></span><i></i>
+				</div>
+			</div>
+  			<div class="last-finger">
+				<div class="last-finger-item"><i></i></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->
+
+    <header class="header header_style_01">
+        <nav class="megamenu navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../index.html"><img src="../images/logos/logo-hosting.png" alt="image"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a class="active" href="features.html">Selectores </a></li>
+                        <li><a href="domain.html">Eventos</a></li>
+                        <li><a href="hosting.html">Efectos</a></li>
+                        <li><a href="pricing.html">HTML/CSS</a></li>
+                        <li><a href="testimonials.html">Transacciones</a></li>
+                        <li><a href="contact.html">AJAX</a></li>
+                        <li><a href="contact2.html">Misceláneas</a></li>
+                        <li><a href="contact3.html">Propiedades</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+	
+	<div class="all-title-box">
+		<div class="container text-center">
+			<h1>Selectores<span class="m_1">jQuery</span></h1>
+		</div>
+	</div>
+	
+    <div class="section lb">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Selectores jQuery</h3>
+                <div class="dmoain-pricing">
+                    <div class="table-responsive-sm">
+                        <table>
+                            <thead>
+                                <tr class="domain-head">
+                                    <th scope="col">
+                                        Método / Propiedad
+                                    </th>
+                                    <th scope="col">
+                                        Descripción
+                                    </th>
+                                    <th>
+                                        Ejemplos
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">*</td>
+                                    <td data-label="registration pricing">Todos los elementos</td>
+                                    <td> $("*") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">#id</td>
+                                    <td data-label="registration pricing">El elemento con id="apellido" </td>
+                                    <td> $("#lastname") </a> </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">.class </td>
+                                    <td data-label="registration pricing">Todos los elementos con class="intro"</td>
+                                    <td> $(".intro") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">.class,.class </td>
+                                    <td data-label="registration pricing">Todos los elementos con la clase "intro" o "demo"</td>
+                                    <td>$(".intro,.demo")</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">element</td>
+                                    <td data-label="registration pricing">Todos los elementos < p > </td>
+                                    <td>$("p")</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">el1,el2,el3 </td>
+                                    <td data-label="registration pricing">Todos los elementos < h1 >, < div > y < p ></td>
+                                    <td>$("h1,div,p")</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:first </td>
+                                    <td data-label="registration pricing">El primer elemento < p ></td>
+                                    <td>$("p:first") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:last </td>
+                                    <td data-label="registration pricing">El ultimo elemento < p ></td>
+                                    <td>$("p:last") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:even  </td>
+                                    <td data-label="registration pricing">Todos los elementos pares < tr ></td>
+                                    <td>$("tr:even") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:odd </td>
+                                    <td data-label="registration pricing">Todos los elementos impares < tr ></td>
+                                    <td>$("tr:odd") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:first-child </td>
+                                    <td data-label="registration pricing">Todos los elementos < p > que son el primer hijo de su padre</td>
+                                    <td>$("p:first-child") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:first-of-type</td>
+                                    <td data-label="registration pricing">Todos los elementos < p > que son el primer elemento < p > de su padre</td>
+                                    <td>$("p:first-of-type")</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:last-child</td>
+                                    <td data-label="registration pricing">Todos los elementos < p > que son el último hijo de su padre</td>
+                                    <td>$("p:last-child")</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:last-of-type </td>
+                                    <td data-label="registration pricing">Todos los elementos < p > que son el ultimo elemento < p > de su padre</td>
+                                    <td>$("p:last-of-type") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:nth-child(n) </td>
+                                    <td data-label="registration pricing">Todos los elementos < p > que son el segundo hijo de su padre</td>
+                                    <td> $("p:nth-child(2)") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:nth-last-child(n) </td>
+                                    <td data-label="registration pricing">Todos los elementos < p > que son el segundo hijo de su padre, contando desde el último hijo</td>
+                                    <td>$("p:nth-last-child(2)") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:nth-of-type(n)</td>
+                                    <td data-label="registration pricing">Todos los elementos < p > que son el segundo elemento < p > de su padre</td>
+                                    <td>$("p:nth-of-type(2)") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:nth-last-of-type(n) </td>
+                                    <td data-label="registration pricing">Todos los elementos < p > que son el segundo elemento < p > de su padre, contando desde el último hijo</td>
+                                    <td>$("p:nth-last-of-type(2)") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:only-child </td>
+                                    <td data-label="registration pricing">Todos los elementos < p > que son el único hijo de su padre</td>
+                                    <td>$("p:only-child")</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:only-of-type  </td>
+                                    <td data-label="registration pricing">Todos los elementos < p > que son el único hijo, de su tipo, de su padre</td>
+                                    <td>$("p:only-of-type") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">parent > child </td>
+                                    <td data-label="registration pricing">Todos los elementos < p > que son hijos directos de un elemento < div > </td>
+                                    <td>$("div > p") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">parent descendant </td>
+                                    <td data-label="registration pricing">Todos los elementos < p > que son descendientes de un elemento < div ></td>
+                                    <td>$("div p")</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">element + next </td>
+                                    <td data-label="registration pricing">El elemento < p > que está al lado de cada elemento < div > </td>
+                                    <td>$("div + p")</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">element ~ siblings </td>
+                                    <td data-label="registration pricing">Todos los elementos < p > que aparecen después del elemento < div > </td>
+                                    <td>$("div ~ p") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:eq(index) </td>
+                                    <td data-label="registration pricing">El cuarto elemento en una lista (el índice comienza en 0)</td>
+                                    <td>$("ul li:eq(3)") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:gt(no) </td>
+                                    <td data-label="registration pricing">Lista de elementos con un índice mayor que 3</td>
+                                    <td>$("ul li:gt(3)")  </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:lt(no)</td>
+                                    <td data-label="registration pricing">Listar elementos con un índice inferior a 3</td>
+                                    <td>$("ul li:lt(3)") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:not(selector) </td>
+                                    <td data-label="registration pricing">Todos los elementos de entrada que no están vacíos</td>
+                                    <td>$("input:not(:empty)")  </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:header </td>
+                                    <td data-label="registration pricing">Todos los elementos de encabezado < h1 >, < h2 > ...</td>
+                                    <td>$(":header") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:animated </td>
+                                    <td data-label="registration pricing">Todos los elementos animados</td>
+                                    <td>$(":animated") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:focus </td>
+                                    <td data-label="registration pricing">El elemento que actualmente tiene el foco</td>
+                                    <td>$(":focus")</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:contains(text) </td>
+                                    <td data-label="registration pricing">Todos los elementos que contienen el texto "Hello"</td>
+                                    <td>$(":contains('Hello')")</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:has(selector)</td>
+                                    <td data-label="registration pricing">Todos los elementos < div > que tienen un elemento < p > </td>
+                                    <td>$("div:has(p)") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:empty </td>
+                                    <td data-label="registration pricing">Todos los elementos que están vacíos</td>
+                                    <td>$(":empty") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:parent</td>
+                                    <td data-label="registration pricing">Todos los elementos que son padre de otro elemento.</td>
+                                    <td>$(":parent")</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:hidden </td>
+                                    <td data-label="registration pricing">Todos los elementos < p ></td>
+                                    <td>$("p:hidden") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:visible</td>
+                                    <td data-label="registration pricing">Todas las tablas visibles</td>
+                                    <td> $("table:visible") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:root </td>
+                                    <td data-label="registration pricing">El elemento raíz del documento.</td>
+                                    <td>$(":root") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:lang(language)</td>
+                                    <td data-label="registration pricing">Todos los elementos < p > con un valor de atributo lang que comience con "de"</td>
+                                    <td>$("p:lang(de)")</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">[attribute]</td>
+                                    <td data-label="registration pricing">Todos los elementos con un atributo href</td>
+                                    <td>$("[href]")</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">[attribute=value] </td>
+                                    <td data-label="registration pricing">Todos los elementos con un valor de atributo href igual a "default.htm"</td>
+                                    <td>$("[href='default.htm']") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">[attribute!=value] </td>
+                                    <td data-label="registration pricing">Todos los elementos con un valor de atributo href diferente a "default.htm"</td>
+                                    <td>$("[href!='default.htm']") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">[attribute$=value] </td>
+                                    <td data-label="registration pricing">Todos los elementos con un valor de atributo href que termine en ".jpg"</td>
+                                    <td>$("[href$='.jpg']") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">[attribute|=value] </td>
+                                    <td data-label="registration pricing">Todos los elementos con un valor de atributo de título igual a 'Tomorrow', o que comiencen con 'Tomorrow' seguido de un guión</td>
+                                    <td>$("[title|='Tomorrow']") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">[attribute^=value] </td>
+                                    <td data-label="registration pricing">Todos los elementos con un valor de atributo de título que comience con "Tom"</td>
+                                    <td>$("[title^='Tom']")</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">[attribute~=value] </td>
+                                    <td data-label="registration pricing">Todos los elementos con un valor de atributo de título que contenga la palabra específica "hello"</td>
+                                    <td>$("[title~='hello']")</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">[attribute*=value]</td>
+                                    <td data-label="registration pricing">Todos los elementos con un valor de atributo de título que contenga la palabra "hello"</td>
+                                    <td>$("[title*='hello']") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:input</td>
+                                    <td data-label="registration pricing">Todos los elementos de entrada</td>
+                                    <td>$(":input") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:text </td>
+                                    <td data-label="registration pricing">Todos los elementos de entrada con type="text"</td>
+                                    <td>$(":text")  </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:password </td>
+                                    <td data-label="registration pricing">Todos los elementos de entrada con type="password"</td>
+                                    <td>$(":password")  </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:radio </td>
+                                    <td data-label="registration pricing">Todos los elementos de entrada con type="radio"</td>
+                                    <td>$(":radio") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:checkbox </td>
+                                    <td data-label="registration pricing">Todos los elementos de entrada con type="checkbox"</td>
+                                    <td>$(":checkbox")  </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:submit</td>
+                                    <td data-label="registration pricing">Todos los elementos de entrada con type="submit"</td>
+                                    <td>$(":submit")</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:reset </td>
+                                    <td data-label="registration pricing">Todos los elementos de entrada con type="reset"</td>
+                                    <td>$(":reset") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:button </td>
+                                    <td data-label="registration pricing">Todos los elementos de entrada con type="button"</td>
+                                    <td>$(":button") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:image </td>
+                                    <td data-label="registration pricing">Todos los elementos de entrada con type="image"</td>
+                                    <td>$(":image") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:file </td>
+                                    <td data-label="registration pricing">Todos los elementos de entrada con type="file"</td>
+                                    <td>$(":file")</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:enabled </td>
+                                    <td data-label="registration pricing">Todos los elementos de entrada habilitados</td>
+                                    <td>$(":enabled") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:disabled </td>
+                                    <td data-label="registration pricing">Todos los elementos de entrada deshabilitados</td>
+                                    <td>$(":disabled") </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:selected </td>
+                                    <td data-label="registration pricing">Todos los elementos de entrada seleccionados</td>
+                                    <td>$(":selected")</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="DOMAIN NAME">:checked </td>
+                                    <td data-label="registration pricing">Todos los elementos de entrada marcados</td>
+                                    <td>$(":checked")</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div><!-- end title -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <section class="section nopad cac text-center">
+        <a href="https://www.w3schools.com/jquery/trysel.asp"><h3>Dale clic para ver los ejemplos</h3></a>
+    </section>
+
+     <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <img src="../images/logos/logo-hosting-light.jpg" alt="">
+                            <small>jQuery Referencias</small>
+                        </div>
+                        <p> Esta sección contiene una documentación de referencia completa de jQuery.</p>
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Informacion</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="../index.html">Inicio</a></li>
+                            <li><a href="features.html">Selectores</a></li>
+                            <li><a href="domain.html">Eventos</a></li>
+                            <li><a href="hosting.html">Efectos</a></li>
+                            <li><a href="pricing.html">HTML/CSS</a></li>
+                            <li><a href="testimonials.html">Transacciones</a></li>
+                            <li><a href="contact.html">AJAX</a></li>
+                            <li><a href="contact2.html">Misceláneas</a></li>
+                            <li><a href="contact3.html">Propiedades</a></li>
+
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+                
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Detalle de Contactos</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">jacortez3@espe.edu.ec</a></li>
+                            <li><a href="#">www.grupo08.com</a></li>
+                            <li>Av Rumiñahui y Ambato Ecuador</li>
+                            <li>+593 95136987</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+                <div class="col-md-2 col-sm-2 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Redes Sociales</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="#"><i class="fa fa-facebook"></i> 22.543 Likes</a></li>
+                            <li><a href="#"><i class="fa fa-github"></i> 128 Proyectos</a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i> 12.860 Seguidores</a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i> 3312 Shots</a></li>
+                            <li><a href="#"><i class="fa fa-pinterest"></i>3331 Pins</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="../js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="../js/custom.js"></script>
+
+
+</body>
+</html>
